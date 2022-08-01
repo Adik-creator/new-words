@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Day } from "./components/Day/Day";
+import { Day } from "./components/Day";
 import { Home } from "./components/Home_page";
 
 function App() {
