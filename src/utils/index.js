@@ -1,0 +1,110 @@
+import american_courses from "../components/dictionary/img/american_courses.png";
+
+export const DICTIONARY = {
+  DayOne: [
+    {
+      english: "to park",
+      russian: "парковаться",
+      id: 1,
+      img: american_courses,
+    },
+    { english: "to give", russian: "давать", id: 2, img: american_courses },
+    { english: "to live", russian: "жить", id: 3, img: american_courses },
+    { english: "to drive", russian: "водить", id: 4, img: american_courses },
+    { english: "to take", russian: "брать", id: 5, img: american_courses },
+    {
+      english: "to get on",
+      russian: "сесть (в автобус)",
+      id: 6,
+      img: american_courses,
+    },
+    {
+      english: "to get off",
+      russian: "выйты (из автобуса)",
+      id: 7,
+      img: american_courses,
+    },
+    {
+      english: "to be late",
+      russian: "опаздать",
+      id: 8,
+      img: american_courses,
+    },
+    { english: "to run", russian: "бежать", id: 9, img: american_courses },
+    { english: "to sit", russian: "сидеть", id: 10, img: american_courses },
+  ],
+  DayTwo: [
+    { english: "to forget", russian: "забыть", id: 11, img: american_courses },
+    { english: "to wait for", russian: "ждать", id: 12, img: american_courses },
+    { english: "to watch", russian: "смотреть", id: 13, img: american_courses },
+    {
+      english: "to cross",
+      russian: "пересикать",
+      id: 14,
+      img: american_courses,
+    },
+    {
+      english: "to use",
+      russian: "использовать",
+      id: 15,
+      img: american_courses,
+    },
+    {
+      english: "to keep",
+      russian: "хранить, держать",
+      id: 16,
+      img: american_courses,
+    },
+    {
+      english: "to look for",
+      russian: "искать",
+      id: 17,
+      img: american_courses,
+    },
+    { english: "to go into", russian: "зайти", id: 18, img: american_courses },
+    { english: "to read", russian: "читать", id: 19, img: american_courses },
+    {
+      english: "to turn",
+      russian: "поворачивать",
+      id: 20,
+      img: american_courses,
+    },
+  ],
+  DayTree: [
+    { english: "to forget", russian: "забыть", id: 11, img: american_courses },
+    { english: "to wait for", russian: "ждать", id: 12, img: american_courses },
+    { english: "to watch", russian: "смотреть", id: 13, img: american_courses },
+    {
+      english: "to cross",
+      russian: "пересикать",
+      id: 14,
+      img: american_courses,
+    },
+    {
+      english: "to use",
+      russian: "использовать",
+      id: 15,
+      img: american_courses,
+    },
+    {
+      english: "to keep",
+      russian: "хранить, держать",
+      id: 16,
+      img: american_courses,
+    },
+    {
+      english: "to look for",
+      russian: "искать",
+      id: 17,
+      img: american_courses,
+    },
+    { english: "to go into", russian: "зайти", id: 18, img: american_courses },
+    { english: "to read", russian: "читать", id: 19, img: american_courses },
+    {
+      english: "to turn",
+      russian: "поворачивать",
+      id: 20,
+      img: american_courses,
+    },
+  ],
+};

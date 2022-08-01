@@ -1,0 +1,28 @@
+.header {
+    background-color: blue;
+    padding: 0 15px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.headerTitle h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.headerTitle p {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding:10px 0;
+}
