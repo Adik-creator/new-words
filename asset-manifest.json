@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cb8fa8d.css",
-    "main.js": "/static/js/main.da8c2a3c.js",
+    "main.css": "/static/css/main.8a34d345.css",
+    "main.js": "/static/js/main.ccb6f6b6.js",
     "static/media/logo_american_courses.jpg": "/static/media/logo_american_courses.7fb69335a673f027b063.jpg",
     "index.html": "/index.html",
-    "main.2cb8fa8d.css.map": "/static/css/main.2cb8fa8d.css.map",
-    "main.da8c2a3c.js.map": "/static/js/main.da8c2a3c.js.map"
+    "main.8a34d345.css.map": "/static/css/main.8a34d345.css.map",
+    "main.ccb6f6b6.js.map": "/static/js/main.ccb6f6b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cb8fa8d.css",
-    "static/js/main.da8c2a3c.js"
+    "static/css/main.8a34d345.css",
+    "static/js/main.ccb6f6b6.js"
   ]
 }
