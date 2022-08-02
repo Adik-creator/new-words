@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a34d345.css",
-    "main.js": "/static/js/main.6cab13a7.js",
-    "static/media/logo_american_courses.jpg": "/static/media/logo_american_courses.7fb69335a673f027b063.jpg",
-    "index.html": "/index.html",
-    "main.8a34d345.css.map": "/static/css/main.8a34d345.css.map",
-    "main.6cab13a7.js.map": "/static/js/main.6cab13a7.js.map"
+    "main.css": "/new-words/static/css/main.8a34d345.css",
+    "main.js": "/new-words/static/js/main.55b1276f.js",
+    "static/media/logo_american_courses.jpg": "/new-words/static/media/logo_american_courses.7fb69335a673f027b063.jpg",
+    "index.html": "/new-words/index.html",
+    "main.8a34d345.css.map": "/new-words/static/css/main.8a34d345.css.map",
+    "main.55b1276f.js.map": "/new-words/static/js/main.55b1276f.js.map"
   },
   "entrypoints": [
     "static/css/main.8a34d345.css",
-    "static/js/main.6cab13a7.js"
+    "static/js/main.55b1276f.js"
   ]
 }
