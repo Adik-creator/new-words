@@ -1,4 +1,3 @@
-import american_courses from "../components/dictionary/img/american_courses.png";
 
 export const DICTIONARY = {
   DayOne: [
