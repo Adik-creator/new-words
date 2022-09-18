@@ -4,6 +4,7 @@ import {Header} from "../Header";
 
 import styles from './Layout.module.css'
 import {Buttons} from "../Buttons";
+import {Footer} from "../Footer";
 
 const Layout = () => {
     return (
@@ -22,7 +23,7 @@ const Layout = () => {
             </main>
 
             <footer className={styles.footer}>
-                footer
+                <Footer/>
             </footer>
         </div>
     );

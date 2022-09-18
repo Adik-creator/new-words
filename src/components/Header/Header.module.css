@@ -1,17 +1,16 @@
 .header {
     padding: 0 15px;
-    /*background-color: #5b5959;*/
     background: linear-gradient(261.95deg, #4e6aea -18.21%, #7C2BFD 120.86%);
     position: fixed;
     top: 0;
     max-width: 1600px;
     width: 100%;
     border-radius: 10px;
-
 }
 
 .wrapper {
     margin: 0 auto;
+    padding: 0 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
