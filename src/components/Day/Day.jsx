@@ -1,22 +1,17 @@
 import React from "react";
 import {useParams} from "react-router-dom";
-import {DICTIONARY} from "../../utils";
-import {Dictionary} from "../dictionary";
-import {Home} from "../Home_page";
+import {DICTIONARY} from "../../utils/data";
+import {Cards} from "../Cards";
 
-import './Day.css'
+import styles from './Day.module.css'
 
 export const Day = () => {
-    const {id} = useParams();
+    const {day} = useParams();
 
     return (
         <div>
-            <Home/>
-            <div className="dayCards">
-                {DICTIONARY[id].map((el) => (
-                    <Dictionary dictionary={el} key={el.id}/>
-                ))}
+            <div className={styles.dayCards}>
+                {DICTIONARY[day].map((el) => (<Cards dictionary={el} key={el.id}/>))}
             </div>
-        </div>
-    );
+        </div>);
 };

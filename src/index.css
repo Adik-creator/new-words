@@ -6,19 +6,18 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: rgba(44, 45, 46);
+    background-image: url("./imgs/alone-tree.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .App{
-    max-width: 1100px;
+    max-width: 100%;
     margin: 0 auto;
-    background-color: #bebebe;
     color: white;
 
-}
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 h1, h2, h3, h4, h5, h6{
