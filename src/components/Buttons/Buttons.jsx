@@ -11,8 +11,8 @@ const Buttons = () => {
             <div className="days">
                 {Object.keys(DICTIONARY).map((el, index) => (
                     <CustomLink
+                        key={index}
                         to={`/days/${el}`}
-                        className="button-87"
                     >
                         {`Day ${index + 1}`}
                     </CustomLink>

@@ -1,18 +1,20 @@
 import React from 'react';
-import {Link, useMatch} from "react-router-dom";
-// import styles from './CustomLink.module.css'
+import {useMatch} from "react-router-dom";
+import {Button} from "../Themes";
+
+
 
 const CustomLink = ({to, children, ...props}) => {
 
     const match = useMatch(to)
     return (
-        <Link
+        <Button
             to={to}
             {...props}
             style={match ? {textDecoration: "underline"} : {textDecoration: "none"}}
         >
             {children}
-        </Link>
+        </Button>
     );
 };
 

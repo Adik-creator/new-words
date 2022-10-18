@@ -1,26 +1,41 @@
 import React from 'react';
-import styles from './Header.module.css'
-import american_courses from '../../imgs/cards-image/logo_american_courses.jpg'
-import {CustomLink} from "../CustomLink/CustomLink";
+import {StyleHeader} from "../Themes";
 
+import {CustomLink} from "../CustomLink/CustomLink";
+import american_courses from "../../imgs/cards-image/logo_american_courses.jpg";
+import {IrregularVerbs} from "../IrregularVerbs";
+import {useDarkMode} from "../../hooks/useDarkMode";
+
+import './Header.css'
 const Header = () => {
+
+    const {toggle} = useDarkMode();
+
     return (
-        <div className={styles.header}>
-            <div className={styles.wrapper}>
-                <div className={styles.headerTitle}>
-                    <h1>New words</h1>
-                    <p>(Prince and Janayim's class)</p>
-                </div>
+        <StyleHeader>
+            <section className="top_nav">
                 <div>
-                </div>
-                <div className={styles.headerLogo}>
                     <CustomLink to="/">
-                        <img src={american_courses} alt="logo" className={styles.headerImg}/>
+                        <img src={american_courses} alt="logo" className="headerImg"/>
                     </CustomLink>
                 </div>
-            </div>
-        </div>
+                <input id="menu_toggle" type="checkbox"/>
+                <label className='menu_button_container' htmlFor="menu_toggle">
+                    <div className='menu_button'></div>
+                </label>
+                <ul className="menu">
+
+                    <li><button onClick={toggle} className="darkMode">Dark Mode</button></li>
+                    {/*<li><IrregularVerbs/></li>*/}
+                    <li>Three</li>
+                    <li>Four</li>
+                    <li>Five</li>
+                </ul>
+            </section>
+
+            <h2 className="header_h2">Prince and Zhanayim's class</h2>
+        </StyleHeader>
     );
 };
 
-export { Header };
+export {Header};
