@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleHeader} from "../Themes";
+import {DarkModeButton, Menu, StyleHeader} from "../Themes";
 
 import {CustomLink} from "../CustomLink/CustomLink";
 import american_courses from "../../imgs/cards-image/logo_american_courses.jpg";
@@ -7,6 +7,7 @@ import {IrregularVerbs} from "../IrregularVerbs";
 import {useDarkMode} from "../../hooks/useDarkMode";
 
 import './Header.css'
+
 const Header = () => {
 
     const {toggle} = useDarkMode();
@@ -24,12 +25,12 @@ const Header = () => {
                     <div className='menu_button'></div>
                 </label>
                 <ul className="menu">
-
-                    <li><button onClick={toggle} className="darkMode">Dark Mode</button></li>
-                    {/*<li><IrregularVerbs/></li>*/}
-                    <li>Three</li>
-                    <li>Four</li>
-                    <li>Five</li>
+                    <li>
+                        <DarkModeButton>
+                            <span onClick={toggle} className="darkMode">Dark Mode</span>
+                        </DarkModeButton>
+                    </li>
+                    <li><IrregularVerbs/></li>
                 </ul>
             </section>
 
