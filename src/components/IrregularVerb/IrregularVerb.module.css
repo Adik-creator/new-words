@@ -1,0 +1,31 @@
+
+.irregular_verb{
+    /*width: 100%;*/
+    /*background-color: red;*/
+}
+
+.irregular_ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.irregular_ul li{
+    margin: 5px;
+    list-style-type: none;
+    font-size: 20px;
+    width: 33.3%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #5b5959;
+    border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+    .irregular_ul li{
+        font-size: 16px;
+    }
+}

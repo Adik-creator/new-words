@@ -1,9 +1,8 @@
 import React from 'react';
-import {DarkModeButton, Menu, StyleHeader} from "../Themes";
+import {DarkModeButton, StyleHeader} from "../Themes";
 
 import {CustomLink} from "../CustomLink/CustomLink";
 import american_courses from "../../imgs/cards-image/logo_american_courses.jpg";
-import {IrregularVerbs} from "../IrregularVerbs";
 import {useDarkMode} from "../../hooks/useDarkMode";
 
 import './Header.css'
@@ -30,7 +29,7 @@ const Header = () => {
                             <span onClick={toggle} className="darkMode">Dark Mode</span>
                         </DarkModeButton>
                     </li>
-                    <li><IrregularVerbs/></li>
+                    <li><CustomLink to={"/irregularVerbs"}>Irregular Verbs</CustomLink></li>
                 </ul>
             </section>
 

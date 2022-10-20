@@ -25,7 +25,12 @@ export const DICTIONARY = {
     ],
     DayThree: [
         {english: "to get in the car", russian: "сесть в машину", id: 11, img: '/images/dayThree/togetinthecar.jpg'},
-        {english: "to go out of the car", russian: "выйти из машины", id: 12, img: '/images/dayThree/togooutofthecar.jpg'},
+        {
+            english: "to go out of the car",
+            russian: "выйти из машины",
+            id: 12,
+            img: '/images/dayThree/togooutofthecar.jpg'
+        },
         {english: "to open", russian: "открыть", id: 18, img: '/images/dayThree/toopen.jpeg'},
         {english: "to write", russian: "писать", id: 13, img: '/images/dayThree/towrite.jpeg'},
         {english: "to eat", russian: "кушать", id: 14, img: '/images/dayThree/toeat.jpg'},
@@ -120,3 +125,16 @@ export const DICTIONARY = {
     ],
 };
 
+
+export const IRREGULAR_VERBS = [
+    {id: 1, BaseForm: "awake", PastSimple: "awoke", Russian: "бодрствующий"},
+    {id: 2, BaseForm: "be", PastSimple: "was/were", Russian: "был"},
+    {id: 3, BaseForm: "beat", PastSimple: "beat", Russian: "бить, ударить"},
+    {id: 4, BaseForm: "bite", PastSimple: "bit", Russian: "кусать"},
+    {id: 5, BaseForm: "begin", PastSimple: "began", Russian: "начинать"},
+    {id: 6, BaseForm: "blow", PastSimple: "blew", Russian: "дуть"},
+    {id: 7, BaseForm: "break", PastSimple: "broke", Russian: "ломать"},
+    {id: 8, BaseForm: "bring", PastSimple: "brought", Russian: "приносить"},
+    {id: 9, BaseForm: "build", PastSimple: "built", Russian: "строить"},
+    {id: 10, BaseForm: "buy", PastSimple: "bought", Russian: "купить"},
+]

@@ -1,5 +1,7 @@
 import styled, {createGlobalStyle} from "styled-components";
 import {Link} from "react-router-dom";
+import dark from '../imgs/alone_background.jpg'
+import autumn from '../imgs/autumn.jpg'
 
 export const lightTheme = {
     body: '#FFF',
@@ -7,13 +9,16 @@ export const lightTheme = {
     toggleBorder: '#ffffff',
     background: '#393E46',
     backgroundPrimary: '#222831',  //'linear-gradient(261.95deg, #4e6aea -18.21%, #7C2BFD 120.86%)'
+    backgroundImage: autumn
+
 }
 export const darkTheme = {
     body: '#363537',
-    text: '#2c2828',
+    text: '#ffffff',
     toggleBorder: '#58789d',
     background: '#999',
-    backgroundPrimary: '#AAB8B6',
+    backgroundPrimary: '#5b5959',
+    backgroundImage: dark,
 }
 
 export const StyleHeader = styled.div`
@@ -51,11 +56,12 @@ export const Button = styled(Link)`
   -webkit-user-select: none;
   touch-action: manipulation;
 
-  &:hover{
+  &:hover {
     background-position: right center;
-    color: #fff;
-    text-decoration: none;
+    color: #eea1a1;
+    text-decoration: underline;
   }
+
   &:active {
     transform: scale(0.95);
   }
@@ -80,11 +86,12 @@ export const DarkModeButton = styled.div`
   -webkit-user-select: none;
   touch-action: manipulation;
 
-  &:hover{
+  &:hover {
     background-position: right center;
-    color: #fff;
-    text-decoration: none;
+    color: #eea1a1;
+    text-decoration: underline;
   }
+
   &:active {
     transform: scale(0.95);
   }

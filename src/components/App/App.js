@@ -3,8 +3,12 @@ import {Routers} from "../Routers";
 import {darkTheme, GlobalStyles, lightTheme} from "../Themes";
 import {useDarkMode} from "../../hooks/useDarkMode";
 
+import img from '../../imgs/alone-tree.jpg'
+
 const Wrapper = styled.div`
   background: ${({ theme }) => theme.background};
+  background-image: url(${props => props.img});
+  background-size: cover;
 `
 
 const App = () => {
@@ -12,7 +16,7 @@ const App = () => {
     return (
         <ThemeProvider theme={!isDarkMode ? lightTheme : darkTheme}>
             <GlobalStyles/>
-            <Wrapper>
+            <Wrapper img={img}>
                 <Routers/>
             </Wrapper>
         </ThemeProvider>
