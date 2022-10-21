@@ -3,7 +3,7 @@ import {Routers} from "../Routers";
 import {darkTheme, GlobalStyles, lightTheme} from "../Themes";
 import {useDarkMode} from "../../hooks/useDarkMode";
 
-import img from '../../imgs/alone-tree.jpg'
+import img from '../../imgs/alone_background.jpg'
 
 const Wrapper = styled.div`
   background: ${({ theme }) => theme.background};
